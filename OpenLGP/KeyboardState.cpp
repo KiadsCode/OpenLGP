@@ -44,20 +44,20 @@ namespace OpenLGP
 		Plus = GetAsyncKeyState((int)VK_OEM_PLUS);
 		Minus = GetAsyncKeyState((int)VK_OEM_MINUS);
 		Escape = GetAsyncKeyState((int)VK_ESCAPE);
-		Cancel = GetAsyncKeyState(( int)VK_CANCEL);
-		Enter = GetAsyncKeyState(( int)VK_RETURN);
-		Shift = GetAsyncKeyState(( int)VK_SHIFT);
-		Control = GetAsyncKeyState(( int)VK_CONTROL);
-		CapsLock = GetAsyncKeyState(( int)VK_CAPITAL);
-		Pause = GetAsyncKeyState(( int)VK_PAUSE);
-		Alt = GetAsyncKeyState(( int)VK_MENU);
-		End = GetAsyncKeyState(( int)VK_END);
-		Insert = GetAsyncKeyState(( int)VK_INSERT);
-		Delete = GetAsyncKeyState(( int)VK_DELETE);
-		Down = GetAsyncKeyState(( int)VK_DOWN);
-		Left = GetAsyncKeyState(( int)VK_LEFT);
-		Right = GetAsyncKeyState(( int)VK_RIGHT);
-		Up = GetAsyncKeyState(( int)VK_UP);
+		Cancel = GetAsyncKeyState((int)VK_CANCEL);
+		Enter = GetAsyncKeyState((int)VK_RETURN);
+		Shift = GetAsyncKeyState((int)VK_SHIFT);
+		Control = GetAsyncKeyState((int)VK_CONTROL);
+		CapsLock = GetAsyncKeyState((int)VK_CAPITAL);
+		Pause = GetAsyncKeyState((int)VK_PAUSE);
+		Alt = GetAsyncKeyState((int)VK_MENU);
+		End = GetAsyncKeyState((int)VK_END);
+		Insert = GetAsyncKeyState((int)VK_INSERT);
+		Delete = GetAsyncKeyState((int)VK_DELETE);
+		Down = GetAsyncKeyState((int)VK_DOWN);
+		Left = GetAsyncKeyState((int)VK_LEFT);
+		Right = GetAsyncKeyState((int)VK_RIGHT);
+		Up = GetAsyncKeyState((int)VK_UP);
 	}
 	bool KeyboardState::IsKeyDown(Keys key)
 	{
@@ -180,45 +180,45 @@ namespace OpenLGP
 		case (int)OpenLGP::Keys::Space:
 			return Space;
 			break;
-	case (int)OpenLGP::Keys::Escape:
-		return Escape;
-		break;
-	case (int)OpenLGP::Keys::Cancel:
-		return Cancel;
-		break;
-	case (int)OpenLGP::Keys::Enter:
-		return Enter;
-		break;
-	case (int)OpenLGP::Keys::Shift:
-		return Shift;
-		break;
-	case (int)OpenLGP::Keys::Control:
-		return Control;
-		break;
-	case (int)OpenLGP::Keys::Pause:
-		return Pause;
-		break;
-	case (int)OpenLGP::Keys::End:
-		return End;
-		break;
-	case (int)OpenLGP::Keys::Insert:
-		return Insert;
-		break;
-	case (int)OpenLGP::Keys::Delete:
-		return Delete;
-		break;
-	case (int)OpenLGP::Keys::Down:
-		return Down;
-		break;
-	case (int)OpenLGP::Keys::Left:
-		return Left;
-		break;
-	case (int)OpenLGP::Keys::Right:
-		return Right;
-		break;
-	case (int)OpenLGP::Keys::Up:
-		return Up;
-		break;
+		case (int)OpenLGP::Keys::Escape:
+			return Escape;
+			break;
+		case (int)OpenLGP::Keys::Cancel:
+			return Cancel;
+			break;
+		case (int)OpenLGP::Keys::Enter:
+			return Enter;
+			break;
+		case (int)OpenLGP::Keys::Shift:
+			return Shift;
+			break;
+		case (int)OpenLGP::Keys::Control:
+			return Control;
+			break;
+		case (int)OpenLGP::Keys::Pause:
+			return Pause;
+			break;
+		case (int)OpenLGP::Keys::End:
+			return End;
+			break;
+		case (int)OpenLGP::Keys::Insert:
+			return Insert;
+			break;
+		case (int)OpenLGP::Keys::Delete:
+			return Delete;
+			break;
+		case (int)OpenLGP::Keys::Down:
+			return Down;
+			break;
+		case (int)OpenLGP::Keys::Left:
+			return Left;
+			break;
+		case (int)OpenLGP::Keys::Right:
+			return Right;
+			break;
+		case (int)OpenLGP::Keys::Up:
+			return Up;
+			break;
 		default:
 			return false;
 			break;

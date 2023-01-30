@@ -11,10 +11,10 @@ namespace OpenLGP
 	public ref class MathHelper
 	{
 	public:
-		static float Lerp(float a, float b, float k);
-		static double DLengthBetweenPoint2D(Vector2 ^a, Vector2 ^b);
-		static float FLengthBetweenPoint2D(Vector2 ^a, Vector2 ^b);
-		static int ILengthBetweenPoint2D(Vector2 ^a, Vector2 ^b);
+		static float Lerp(float a, float b, float c);
+		static double DLengthBetweenPoint2D(Vector2^ a, Vector2^ b);
+		static float FLengthBetweenPoint2D(Vector2^ a, Vector2^ b);
+		static int ILengthBetweenPoint2D(Vector2^ a, Vector2^ b);
 
 		static int ILengthBetweenPoint1D(int a, int b);
 		static float FLengthBetweenPoint1D(int a, int b);

@@ -1,11 +1,11 @@
 #pragma once
 #include "KeyboardState.h"
 
-namespace OpenLGP 
+namespace OpenLGP
 {
 	public ref class Keyboard
 	{
 	public:
-		static KeyboardState ^GetState();
+		static KeyboardState^ GetState();
 	};
 }

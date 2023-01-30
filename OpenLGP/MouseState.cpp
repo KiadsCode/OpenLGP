@@ -44,15 +44,15 @@ namespace OpenLGP
 		pos -= windowPosY;
 		return pos;
 	}
-	
-	Vector2 ^MouseState::GetPosition(int windowPosX, int windowPosY)
+
+	Vector2^ MouseState::GetPosition(int windowPosX, int windowPosY)
 	{
 		int posX = GetPositionX(windowPosX);
 		int posY = GetPositionY(windowPosY);
-		Vector2 ^pos = gcnew Vector2(posX, posY);
+		Vector2^ pos = gcnew Vector2(posX, posY);
 		return pos;
 	}
-	
+
 	MouseState::MouseState()
 	{
 		LeftMouseButton = GetAsyncKeyState((int)MouseButton::LeftButton);

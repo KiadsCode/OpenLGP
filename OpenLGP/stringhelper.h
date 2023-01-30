@@ -1,12 +1,5 @@
 ﻿#pragma once
 
-//----------------------------------------------------------------------------------------
-//	Copyright © 2004 - 2022 Tangible Software Solutions, Inc.
-//	This class can be used by anyone provided that the copyright notice remains intact.
-//
-//	This class is used to replace some string methods, including
-//	conversions to or from strings.
-//----------------------------------------------------------------------------------------
 #include <string>
 #include <sstream>
 #include <vector>
